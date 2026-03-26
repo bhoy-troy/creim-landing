@@ -3,7 +3,6 @@
 :root {
   --navy:  #0A1F44;
   --teal:  #00C2CB;
-  --teal2: #00A8B0;
   --grey:  #6B7280;
   --light: #F0F4F8;
   --white: #FFFFFF;
@@ -11,12 +10,5 @@
 }
 
 html { scroll-behavior: smooth; }
-
-body {
-  font-family: var(--font);
-  color: var(--navy);
-  background: var(--white);
-  line-height: 1.6;
-}
-
+body { font-family: var(--font); color: var(--navy); background: var(--white); line-height: 1.6; }
 a { text-decoration: none; color: inherit; }
