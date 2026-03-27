@@ -6,6 +6,7 @@ const NAV_LINKS: NavLinkType[] = [
   { label: "Features",     path: "/features" },
   { label: "How It Works", path: "/how-it-works" },
   { label: "Use Cases",    path: "/use-cases" },
+  { label: "About",    path: "/about" },
 //   { label: "Pricing",      path: "/pricing" },
 ];
 

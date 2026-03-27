@@ -12,3 +12,12 @@
 html { scroll-behavior: smooth; }
 body { font-family: var(--font); color: var(--navy); background: var(--white); line-height: 1.6; }
 a { text-decoration: none; color: inherit; }
+nav{
+      position: "fixed", top: 0, left: 0, right: 0, zIndex: 1000,
+      display: "flex", alignItems: "center", justifyContent: "space-between",
+      padding: "0 5%", height: 68,
+      background: alwaysDark ? "rgba(10,31,68,0.97)" : "transparent",
+      backdropFilter: alwaysDark ? "blur(10px)" : "none",
+      borderBottom: alwaysDark ? "1px solid rgba(0,194,203,0.2)" : "none",
+      transition: "all 0.3s ease",
+   }
