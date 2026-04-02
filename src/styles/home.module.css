@@ -1,0 +1,28 @@
+@reference "../app/globals.css";
+
+.hero {
+  @apply min-h-screen flex items-center justify-center px-[5%] pt-[100px] pb-16 text-center relative overflow-hidden;
+  background: linear-gradient(135deg, #0A1F44 0%, #0d2d5e 60%, #0a3a3a 100%);
+}
+.heroGlow {
+  @apply absolute w-[600px] h-[600px] rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none;
+  background: radial-gradient(circle, rgba(0,194,203,0.12) 0%, transparent 70%);
+}
+.heroInner { @apply max-w-[780px] relative z-10; }
+.heroBadge { @apply inline-block bg-teal/15 text-teal border border-teal/35 rounded-full px-4 py-1.5 text-[13px] font-semibold mb-7 tracking-widest; }
+.heroTitle { @apply text-[clamp(2.4rem,5vw,3.6rem)] font-extrabold text-white leading-[1.15] mb-6; }
+.heroAccent { @apply text-teal; }
+.heroSubtitle { @apply text-[clamp(1rem,2vw,1.2rem)] text-white/70 max-w-[580px] mx-auto mb-10 leading-[1.7]; }
+.heroButtons { @apply flex gap-4 justify-center flex-wrap; }
+.btnPrimary { @apply bg-teal text-navy rounded-lg px-8 py-3.5 font-bold text-[15px]; }
+.btnOutline { @apply bg-transparent text-white border border-white/35 rounded-lg px-8 py-3.5 font-semibold text-[15px]; }
+.stats { @apply bg-navy px-[5%] py-12; }
+.statsGrid { @apply grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-8 max-w-[960px] mx-auto text-center; }
+.statValue { @apply text-[2.4rem] font-extrabold text-teal; }
+.statLabel { @apply text-sm text-white/65 mt-1.5 font-medium; }
+.teaser { @apply px-[5%] py-24 bg-light text-center; }
+.teaserInner { @apply max-w-[640px] mx-auto; }
+.teaserLabel { @apply text-teal font-bold text-[13px] tracking-[0.1em] uppercase mb-3; }
+.teaserTitle { @apply text-[clamp(1.8rem,3.5vw,2.4rem)] font-extrabold text-navy mb-5; }
+.teaserText { @apply text-grey text-base leading-[1.7] mb-9; }
+.btnDark { @apply bg-navy text-white rounded-lg px-8 py-3.5 font-bold text-[15px]; }

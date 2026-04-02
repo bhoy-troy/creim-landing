@@ -1,0 +1,18 @@
+@reference "../app/globals.css";
+
+.section { @apply px-[5%] py-20 bg-light; }
+.card { @apply max-w-[680px] mx-auto bg-white rounded-2xl p-12 shadow-lg; }
+.grid2 { @apply grid grid-cols-2 gap-x-5; }
+.label { @apply block text-[13px] font-semibold text-[#374151] capitalize mb-1.5; }
+.input { @apply w-full px-4 py-3 rounded-lg text-[15px] border border-[#D1D5DB] bg-white text-navy outline-none mb-5; }
+.textarea { @apply w-full px-4 py-3 rounded-lg text-[15px] border border-[#D1D5DB] bg-white text-navy outline-none mb-5 resize-y; }
+.submitBtn { @apply w-full py-3.5 rounded-lg border-none bg-teal text-navy font-bold text-[15px] cursor-pointer; }
+.disclaimer { @apply text-center text-[#9CA3AF] text-xs mt-3; }
+.successIcon { @apply text-[56px] mb-5; }
+.successTitle { @apply text-2xl font-extrabold text-navy mb-3; }
+.successText { @apply text-grey text-base leading-[1.7]; }
+.detailsGrid { @apply max-w-[680px] mx-auto mt-10 grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6; }
+.detailCard { @apply text-center p-6 bg-white rounded-xl shadow-sm; }
+.detailIcon { @apply text-[28px] mb-2; }
+.detailLabel { @apply text-xs font-bold text-teal uppercase tracking-widest mb-1; }
+.detailValue { @apply text-sm text-[#374151] font-medium; }

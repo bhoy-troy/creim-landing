@@ -1,0 +1,19 @@
+@reference "../app/globals.css";
+
+.section { @apply px-[5%] py-20 bg-light; }
+.inner { @apply max-w-[1000px] mx-auto; }
+.tabs { @apply flex gap-3 mb-9 flex-wrap; }
+.tab { @apply px-5 py-2.5 rounded-full border-none font-semibold text-sm cursor-pointer transition-all; }
+.tabActive { @apply bg-navy text-teal shadow-md; }
+.tabInactive { @apply bg-white text-grey; }
+.card { @apply bg-white rounded-xl p-10 shadow-lg; }
+.caseIcon { @apply text-[40px] mb-4; }
+.caseName { @apply text-[22px] font-extrabold text-navy mb-7; }
+.caseSection { @apply mb-5; }
+.caseLabel { @apply text-[11px] font-bold text-teal tracking-[0.12em] uppercase mb-1.5; }
+.caseText { @apply text-[15px] text-[#374151] leading-[1.7]; }
+.result {
+  @apply rounded-xl p-5 mt-7;
+  background: linear-gradient(135deg, #0A1F44, #0d3560);
+}
+.resultText { @apply text-[15px] text-white leading-[1.7] font-medium; }

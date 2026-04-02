@@ -1,0 +1,17 @@
+@reference "../app/globals.css";
+
+.nav {
+  @apply fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-[5%] h-[68px] transition-all duration-300;
+}
+.navDark {
+  @apply backdrop-blur-md border-b border-teal/20;
+  background: rgba(10,31,68,0.97);
+}
+.navTransparent { @apply bg-transparent; }
+.logo { @apply flex items-center gap-2.5; }
+.logoText { @apply text-[22px] font-extrabold text-white tracking-[0.15em]; }
+.logoAccent { @apply text-teal; }
+.navList { @apply flex gap-8 list-none; }
+.navLink { @apply text-sm font-medium pb-0.5 border-b-2 border-transparent text-white/85 transition-all duration-200; }
+.navLinkActive { @apply text-teal font-bold border-b-2 border-teal; }
+.ctaButton { @apply bg-teal text-navy rounded-md px-5 py-2.5 font-bold text-sm; }

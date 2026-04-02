@@ -7,11 +7,20 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
+# Next.js
+.next/
+out/
+next-env.d.ts
 
+# Dependencies
 node_modules
+
+# Build output (Vite legacy)
 dist
 dist-ssr
+
+# Logs
+lerna-debug.log*
 *.local
 
 # Editor directories and files

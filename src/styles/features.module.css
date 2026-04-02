@@ -1,0 +1,10 @@
+@reference "../app/globals.css";
+
+.section { @apply px-[5%] py-20 bg-light; }
+.grid { @apply max-w-[1100px] mx-auto grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-7; }
+.card { @apply bg-white rounded-xl p-8 shadow-sm border border-navy/5; }
+.icon { @apply text-[32px] mb-4; }
+.cardTitle { @apply text-[17px] font-bold text-navy mb-2.5; }
+.cardDesc { @apply text-sm text-grey leading-[1.7]; }
+.cta { @apply text-center mt-16; }
+.ctaBtn { @apply bg-teal text-navy rounded-lg px-9 py-3.5 font-bold text-[15px]; }

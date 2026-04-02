@@ -1,0 +1,11 @@
+@reference "../app/globals.css";
+
+.section { @apply px-[5%] py-20 bg-white; }
+.inner { @apply max-w-[860px] mx-auto; }
+.step { @apply flex gap-7 items-start mb-14; }
+.stepLast { @apply flex gap-7 items-start; }
+.stepNum { @apply text-[2.8rem] font-extrabold text-teal/60 leading-none min-w-[64px]; }
+.stepTitle { @apply text-lg font-bold text-navy mb-2; }
+.stepDesc { @apply text-[15px] text-grey leading-[1.7]; }
+.cta { @apply text-center mt-[72px]; }
+.ctaBtn { @apply bg-teal text-navy rounded-lg px-9 py-3.5 font-bold text-[15px]; }

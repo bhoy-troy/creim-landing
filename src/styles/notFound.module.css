@@ -1,0 +1,10 @@
+@reference "../app/globals.css";
+
+.section {
+  @apply min-h-screen flex items-center justify-center px-[5%] text-center;
+  background: linear-gradient(135deg, #0A1F44, #0a3a3a);
+}
+.code { @apply text-[6rem] font-extrabold text-teal leading-none; }
+.title { @apply text-[2rem] font-extrabold text-white mt-4 mb-3; }
+.text { @apply text-white/60 text-base mb-9; }
+.btn { @apply bg-teal text-navy rounded-lg px-8 py-3.5 font-bold text-[15px]; }

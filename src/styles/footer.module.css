@@ -1,0 +1,16 @@
+@reference "../app/globals.css";
+
+.footer { @apply bg-dark px-[5%] pt-12 pb-8; }
+.inner { @apply max-w-[1100px] mx-auto flex justify-between flex-wrap gap-8 pb-10 border-b border-white/10; }
+.brand { @apply max-w-[280px]; }
+.brandLink { @apply flex items-center gap-2.5 mb-3; }
+.brandText { @apply text-xl font-extrabold text-white tracking-[0.12em]; }
+.brandAccent { @apply text-teal; }
+.tagline { @apply text-white/50 text-[13px] leading-relaxed; }
+.colTitle { @apply text-white font-bold text-[13px] mb-4 tracking-widest uppercase; }
+.colList { @apply flex flex-col gap-2.5 list-none; }
+.colLink { @apply text-white/55 text-[13px] hover:text-teal transition-colors; }
+.bottom { @apply max-w-[1100px] mx-auto mt-7 flex justify-between flex-wrap gap-3; }
+.copy { @apply text-white/35 text-xs; }
+.legal { @apply flex gap-5; }
+.legalItem { @apply text-white/35 text-xs cursor-pointer hover:text-white/60 transition-colors; }

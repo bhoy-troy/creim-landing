@@ -1,0 +1,28 @@
+@reference "../app/globals.css";
+
+.section { @apply px-[5%] py-20 bg-white; }
+.grid { @apply max-w-[1050px] mx-auto grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-6; }
+.card { @apply rounded-xl p-9 relative; }
+.cardDefault { @apply bg-white border border-[#E5E7EB] shadow-sm; }
+.cardHighlight { @apply bg-navy border-2 border-teal shadow-2xl; }
+.badge { @apply absolute -top-3.5 left-1/2 -translate-x-1/2 bg-teal text-navy font-extrabold text-xs px-4 py-1 rounded-full tracking-widest; }
+.planName { @apply text-[13px] font-bold tracking-[0.1em] uppercase mb-3; }
+.planNameDefault { @apply text-grey; }
+.planNameHighlight { @apply text-teal; }
+.price { @apply text-[2.6rem] font-extrabold; }
+.priceDefault { @apply text-navy; }
+.priceHighlight { @apply text-white; }
+.period { @apply text-sm ml-1; }
+.periodDefault { @apply text-[#9CA3AF]; }
+.periodHighlight { @apply text-white/60; }
+.desc { @apply text-sm leading-relaxed my-4; }
+.descDefault { @apply text-grey; }
+.descHighlight { @apply text-white/65; }
+.featureList { @apply list-none mb-8; }
+.feature { @apply text-sm py-1.5 flex items-center gap-2 border-b; }
+.featureDefault { @apply border-[#F3F4F6] text-[#374151]; }
+.featureHighlight { @apply border-white/10 text-white/85; }
+.check { @apply text-teal font-bold; }
+.planBtn { @apply w-full py-3.5 rounded-lg border-none font-bold text-[15px] cursor-pointer; }
+.planBtnDefault { @apply bg-navy text-white; }
+.planBtnHighlight { @apply bg-teal text-navy; }
