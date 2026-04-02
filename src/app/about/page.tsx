@@ -3,9 +3,9 @@ import PageHero from "@/components/PageHero";
 import styles from "@/styles/about.module.css";
 
 const TEAM = [
-  { name: "Ciarán Murphy",   role: "CEO & Co-Founder",     bio: "15 years in industrial energy management across Irish manufacturing. Previously led energy efficiency programmes at Bord Gáis Energy.", emoji: "👨‍💼" },
-  { name: "Aoife Kelly",     role: "CTO & Co-Founder",     bio: "Embedded systems engineer turned IoT architect. Built real-time monitoring platforms for HVAC and refrigeration across Europe.",        emoji: "👩‍💻" },
-  { name: "Darragh O'Brien", role: "Head of Data Science", bio: "PhD in predictive analytics from UCD. Specialises in anomaly detection and energy forecasting models for SMEs.",                        emoji: "🧑‍🔬" },
+  { name: "Michael Slattery",   role: "Co-Founder",     bio: "Over 45 years in industrial energy management across Irish manufacturing. Previously led energy efficiency programmes at Bord Gáis Energy.", emoji: "👨‍💼" },
+  { name: "James Troy",     role: "Co-Founder",     bio: "Software systems and Machine Learning engineer, focused on realtime data analytics. Built real-time monitoring platforms for HVAC and refrigeration across Europe.",        emoji: "👩‍💻" },
+//   { name: "Darragh O'Brien", role: "Head of Data Science", bio: "PhD in predictive analytics from UCD. Specialises in anomaly detection and energy forecasting models for SMEs.",                        emoji: "🧑‍🔬" },
 ];
 
 const VALUES = [

@@ -8,7 +8,7 @@ const NAV_LINKS = [
   { label: "Features",     path: "/features" },
   { label: "How It Works", path: "/how-it-works" },
   { label: "Use Cases",    path: "/use-cases" },
-  { label: "About",        path: "/about" },
+//   { label: "About",        path: "/about" },
 ];
 
 const CrIcon = () => (

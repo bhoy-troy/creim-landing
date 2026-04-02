@@ -21,7 +21,9 @@ const CrIcon = () => (
 const COLS: Record<string, { label: string; path: string }[]> = {
   Platform:    [{ label: "Features", path: "/features" }, { label: "How It Works", path: "/how-it-works" }, { label: "Contact", path: "/contact" }],
   "Use Cases": [{ label: "Food Retail", path: "/use-cases" }, { label: "Manufacturing", path: "/use-cases" }, { label: "Hospitality", path: "/use-cases" }],
-  Company:     [{ label: "About", path: "/about" }, { label: "Contact", path: "/contact" }],
+  Company:     [
+//       { label: "About", path: "/about" },
+      { label: "Contact", path: "/contact" }],
 };
 
 export default function Footer() {
